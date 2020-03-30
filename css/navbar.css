@@ -1,0 +1,23 @@
+.navbar-brand {
+    color: #BB1533!important;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.nav-link {
+    color: #BB1533!important;
+}
+
+.movie {
+    margin-right: 50px;
+}
+
+.navbar-nav {
+    margin-left: 56%;
+}
+
+.icon {
+    color: #BAB6B6;
+    margin-right: 10px;
+    font-size: 20px;
+}
