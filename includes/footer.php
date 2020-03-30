@@ -33,7 +33,7 @@
     </div>
 
     <div class="container-fluid" style="background-color: #111111;">
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-lg-12 text-center">
                 <span class="copyright"><i class="far fa-copyright">2020 Metropolis Tous droits réservés</i></span>
             </div>
