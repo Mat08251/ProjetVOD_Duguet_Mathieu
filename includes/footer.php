@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/7d77d119e1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container-fluid" style="background-color: #111111;">
+    <div class="footer container-fluid mt-5" style="background-color: #111111; height: 220px">
         <div class="row text-center">
             <div class="col-4">
                 <h4>A propos</h4>
@@ -33,7 +33,7 @@
     </div>
 
     <div class="container-fluid" style="background-color: #111111;">
-        <div class="row mt-5">
+        <div class="row">
             <div class="col-lg-12 text-center">
                 <span class="copyright"><i class="far fa-copyright">2020 Metropolis Tous droits réservés</i></span>
             </div>

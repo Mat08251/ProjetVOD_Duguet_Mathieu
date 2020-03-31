@@ -1,7 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h4, a, .copyright {
     color: #BAB6B6;
 }
 
-.copyright {
-    margin-top: 50px !important;
+h4 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.footer {
+    margin-top: 0%!important;
 }

@@ -1,0 +1,31 @@
+.formu-connexion {
+    background-color: #111421;
+    padding: 6%;
+    border-radius: 20px 20px;
+    width: 40%!important;
+    margin-top: 2%;
+}
+
+.titre-connexion {
+    color: #BAB6B6;
+    margin-top: -2%;
+    margin-bottom: 9%;
+}
+
+.form-group {
+    width: 30%;
+    margin-left: 7%;
+}
+
+.bouton {
+    margin-top: 10%!important;
+    margin-left: 7%;
+}
+
+.couleur-bouton {
+    color: black!important;
+}
+
+input::-webkit-input-placeholder {
+    color: #111111 !important;
+    }

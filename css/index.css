@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.affiche {
+    background-color: #111421;
+    height:390px;
+    margin-bottom: 10%;
+}
+
+.image-affiche {
+    margin-right: 20%!important;
+}
+
+.titre-affiche {
+    margin-bottom: 2%;
+    color: #BAB6B6;
+}
+
+.actu {
+    background-color: #111421;
+    margin-bottom: 10%;
+}
+
+.texte-actu {
+    margin-top: 7%;
+    color: #BAB6B6;
+}
+
+.forfaits {
+    background-color: #111421;
+    height: 350px;
+}
+
+.titre-forfaits {
+    color: #BAB6B6;
+    margin-top: 10%;
+}
+
+.choix-forfait {
+    background-color: #BB1533!important;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.forfait1, .forfait2 {
+    background-color: #FFFFFF;
+    padding: 2%;
+    margin-top: -2%;
+    width: 40%;
+    margin-left: 30%
+    
+}

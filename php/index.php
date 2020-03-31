@@ -6,7 +6,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="../css/index.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -74,6 +74,59 @@
                 </ul><!-- END SLIDES LIST -->
 
             </div><!-- END SLIDER CONTAINER -->
+        </div>
+
+        <div class="affiche container-fluid">
+            <div class="titre-affiche text-center">
+                <h2>A l'affiche</h2>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <a class=" image-affiche" href="#"><img src="../images/image2.jpg" alt="image-film" style="width: 168px;"></a>
+                    <a class=" image-affiche" href="#"><img src="../images/image6.jpg" alt="image-film" style="width: 176px; height: 252px"></a>
+                    <a class=" image-affiche2" href="#"><img src="../images/image7.jpg" alt="image-film" style="width: 168px; height: 252px"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="actu container-fluid">
+            <div class="row">
+                <div class="image-actu col-6">
+                    <img src="../images/image1.jpg" alt="image-film" style="width: 600px; padding: 0px; margin-left: auto">
+                </div>
+                <p class="texte-actu col-6">
+                    Après la débâcle de Pearl Harbor qui a laissé la flotte américaine dévastée, la marine impériale japonaise prépare une nouvelle attaque qui devrait éliminer définitivement les forces aéronavales restantes de son adversaire. La campagne du Pacifique va se jouer dans un petit atoll isolé du Pacifique nord : Midway.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="forfaits container-fluid text-center">
+            <div class="titre-forfaits text-center">
+               <h2>Forfaits</h2>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                   <div class="choix-forfait">
+                      <h4>STANDARD</h4>
+                   </div>
+                   <div class="forfait1">
+                        <p>2 écrans à la fois</p>
+                        <p>Full HD (1080p)</p>
+                        <p>11,99€/mois</p>
+                   </div>
+                </div>
+                <div class="col-6">
+                   <div class="choix-forfait">
+                       <h4>PREMIUM</h4>
+                   </div>
+                   <div class="forfait2">
+                        <p>4 écrans à la fois</p>
+                        <p>Full HD (1080p)</p>
+                        <p>15,99€/mois</p>
+                   </div>
+                </div>
+            </div>
         </div>
 
        <?php include ('../includes/footer.php'); ?>

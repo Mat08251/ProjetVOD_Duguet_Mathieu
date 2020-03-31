@@ -20,7 +20,7 @@
         <a class="nav-link" href="#"><span class="icon"><i class="fas fa-film"></span></i>Films</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><span class="icon"><i class="fas fa-user"></span></i>Se connecter/s'inscrire</a>
+        <a class="nav-link" href="connexion.php"><span class="icon"><i class="fas fa-user"></span></i>Se connecter/s'inscrire</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
