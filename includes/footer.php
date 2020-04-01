@@ -13,7 +13,7 @@
             <div class="col-4">
                 <h4>A propos</h4>
                 <a class="" href="#">Qui sommes-nous?</a></br>
-                <a class="" href="#">Contactez-nous</a>
+                <a class="" href="formulaire.php">Contactez-nous</a>
             </div>
         
         

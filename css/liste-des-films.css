@@ -1,0 +1,38 @@
+.titre-vod {
+    color: #BB1533;;
+}
+
+.liste {
+    width: 100%!important;
+    display: flex;
+}
+
+.filtre {
+    background-color: #BB1533;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.titre-filtre {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.genre {
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-check {
+    margin: 5px;
+}
+
+.cardfilm {
+    display: flex;
+    flex-direction: column;
+}

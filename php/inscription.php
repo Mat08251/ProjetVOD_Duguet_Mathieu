@@ -31,22 +31,22 @@
                     </div>
                
                     <div class="form-group2">
-                        <label for="pays">E-MAIL :</label>
+                        <label for="emil">E-MAIL :</label>
                         <input type="email" class="form-control" id="email" placeholder="E-mail" style="background-color: #111111;">
-                        <label for="pays">CONFIRMATION :</label>
+                        <label for="email">CONFIRMATION :</label>
                         <input type="email" class="form-control" id="email" placeholder="Confirmez l'adresse e-mail" style="background-color: #111111;">
                     </div>
 
                     <div class="form-group2">
-                        <label for="pays">MOT DE PASSE :</label>
+                        <label for="mot-de-passe">MOT DE PASSE :</label>
                         <input type="password" class="form-control" id="mot-de-passe" placeholder="Mot de passe" style="background-color: #111111">
-                        <label for="pays">CONFIRMATION :</label>
+                        <label for="mot-de-passe">CONFIRMATION :</label>
                         <input type="password" class="form-control" id="mot-de-passe" placeholder="Confirmez le mot de passe" style="background-color: #111111;">
                     </div>
 
                     <div class="col-md-6">
-                        <label for="pays">QUESTION DE SÉCURITÉ :</label>
-                        <select class="custom-select" name="pays" style="background-color: #111111; color: #BAB6B6">
+                        <label for="question">QUESTION DE SÉCURITÉ :</label>
+                        <select class="custom-select" name="question" style="background-color: #111111; color: #BAB6B6">
                             <option value="choix1">Quel est le nom de famille de votre auteur préféré?</option>
                             <option value="choix1">Quel est le nom de votre animal de compagnie?</option>
                             <option value="choix1">Quel est le nom de votre jeux favoris?</option>

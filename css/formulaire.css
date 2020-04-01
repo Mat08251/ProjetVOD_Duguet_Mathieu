@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(25, 30, 53, 0.918)!important;
+}
+
+.titre-formu-contact {
+    color: #BB1533;
+    margin-top: 5%;
+}
+
+.formu-contact {
+    margin-top: 1%;
+    background-color: #111111;
+    padding: 2%;
+    opacity: 1;
+    margin-bottom: 20%;
+}
+
+label {
+    color: #BB1533;
+    background-color: #13232C;
+    width: 100%;
+    padding: 1%;
+    margin-top: 14%;
+}
+
+.form-group3 {
+    margin-left: 50%;
+    width: 100%;
+}
+
+.couleur-bouton3 {
+    color: #FFFFFF;
+}
+
+.bouton3 {
+    margin-top: 10%;
+    margin-left: 23%;
+}
+
+.zone-texte {
+    width: 110%!important;
+}
