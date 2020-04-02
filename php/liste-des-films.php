@@ -90,10 +90,11 @@
             <label for="">Plus d'2h</label>
         </div>
     </div>
-        
+
+    
     <div class="axeldroite">
-            <a href="parasite.php" class="versfilm">
             <div class="cardaxel">
+            <a href="parasite.php" class="versfilm">
                 <img src="../images/film.jpg" alt="">
                 <div class="titrefilm">MIDWAY</div>
                 <div class="infoaxel">
@@ -105,8 +106,8 @@
                 </div>
             </div>
             </a>
-            <a href="" class="versfilm">
             <div class="cardaxel">
+            <a href="" class="versfilm">
                 <img src="../images/image2.jpg" alt="">
                 <div class="titrefilm">SOnic</div>
                 <div class="infoaxel">
@@ -118,8 +119,8 @@
                 </div>
             </div>
             </a>
-            <a href="" class="versfilm">
             <div class="cardaxel">
+            <a href="" class="versfilm">
                 <img src="../images/image7.jpg" alt="">
                 <div class="titrefilm">Joker</div>
                 <div class="infoaxel">
@@ -131,8 +132,8 @@
                 </div>
             </div>
             </a>
-            <a href="" class="versfilm">
             <div class="cardaxel">
+            <a href="" class="versfilm">
                 <img src="../images/image6.jpg" alt="">
                 <div class="titrefilm">L'appel de la FORET</div>
                 <div class="infoaxel">
@@ -144,8 +145,8 @@
                 </div>
             </div>
             </a>
-            <a href="" class="versfilm">
                 <div class="cardaxel">
+                <a href="" class="versfilm">
                 <img src="../images/jumanji.jpg" alt="">
                 <div class="titrefilm">Jumanji</div>
                 <div class="infoaxel">
@@ -157,8 +158,8 @@
                 </div>
             </div>
         </a>
-        <a href="" class="versfilm">
             <div class="cardaxel">
+            <a href="" class="versfilm">
                 <img src="../images/starwars.jpg" alt="">
                 <div class="titrefilm">STAR WARS</div>
                 <div class="infoaxel">
@@ -170,8 +171,8 @@
                 </div>
             </div>
             </a>
-            <a href="" class="versfilm">
             <div class="cardaxel">
+            <a href="" class="versfilm">
                 <img src="../images/zombiland.jpg" alt="">
                 <div class="titrefilm">Retour à Zombiland</div>
                 <div class="infoaxel">
@@ -183,8 +184,8 @@
                 </div>
             </div>
             </a>
-            <a href="" class="versfilm">
             <div class="cardaxel">
+            <a href="" class="versfilm">
                 <img src="../images/crawl.jpg" alt="">
                 <div class="titrefilm">CRAWL</div>
                 <div class="infoaxel">
@@ -196,8 +197,8 @@
                 </div>
             </div>
             </a>
-            <a href="" class="versfilm">
                 <div class="cardaxel">
+                <a href="" class="versfilm">
                     <img src="../images/Affiche_Ça_Chapitre_2.jpg" alt="">
                     <div class="titrefilm">ça chapitre 2</div>
                     <div class="infoaxel">
@@ -209,8 +210,8 @@
                     </div>
                 </div>
                 </a>
-                <a href="" class="versfilm">
                     <div class="cardaxel">
+                    <a href="" class="versfilm">
                         <img src="../images/Affiche-Film-Asterix.jpg" alt="">
                         <div class="titrefilm">ASTÉRIX</div>
                         <div class="infoaxel">
@@ -222,8 +223,8 @@
                         </div>
                     </div>
                     </a>
-                    <a href="" class="versfilm">
                         <div class="cardaxel">
+                        <a href="" class="versfilm">
                             <img src="../images/affiche-the-renegade-640x896.jpg" alt="">
                             <div class="titrefilm">The RENEGADE</div>
                             <div class="infoaxel">
