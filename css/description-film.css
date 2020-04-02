@@ -140,7 +140,7 @@ body {
     }
 
     .img-film{
-        width:50%;
+        width:80%;
     }
 
 .information{
@@ -151,6 +151,8 @@ body {
  
 
 }
+
+
 
 .info-title {
     font-size:40px;
@@ -201,4 +203,76 @@ body {
     width:50%;
     justify-content: center;
 }
+
+.bande-annonce {
+    width: 50%;
+}
+
+iframe{
+    border-radius: 25px;
+}
+
+.text-real{
+    width:50%;
+    margin-top:auto;
+    margin-bottom:auto;
+    font-size:20px;
+    font-weight:100;
+    }
+    
+    .img-real{
+        width:50%;
+        margin-top:auto;
+    margin-bottom:auto;
+    transition: .3s ease;
+    }
+    
+    .img-real img:hover{
+        transform: scale(1.1);
+        transform: translateY(-5px);
+        cursor:pointer;
+        transition: .5s ease;
+    }
+    
+    .img-real img{
+        transition: .5s ease;
+        border-radius:10px;
+    }
+    
+    .img-real:hover{
+        transform:scale(1.1);
+        transition: .3s ease;
+    }
+}
+
+@media only screen and (min-width:1900px){*
+    
+    .information {
+        font-size:40px;
+        text-align:left;
+    }
+
+    .texte-synop{
+        margin-left: 20px;
+    }
+
+    .acteur{
+        font-size:20px;
+    }
+    
+    .acteur img{
+    width:150px;
+    }
+    
+    .img-real{
+        font-size:25px;
+    }
+    
+    .img-real > img{
+        width:150px;
+    }
+    .img-real > div{
+        font-size:20px;
+    }
+
 }

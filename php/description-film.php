@@ -21,7 +21,7 @@
 
        <div class="row">
             <div class="img-resume">
-                <div class="col-md-6">   
+                <div class="col-md-6 col-xs-12">   
                     <img class="img-film" src="../images/image1.jpg" alt="">
                 </div>
                 <div class="informations col-md-6">
@@ -53,7 +53,7 @@
            </div>
 
            <div class="row">
-               <div class="liste-acteurs col-md-12">
+               <div class="liste-acteurs col-md-12 col-xs-12">
                     <div class="acteur">
                         <img src="../images/acteur1.jpg" alt="">
                         <div>Patrick Wilson</div>
@@ -94,7 +94,7 @@
                         <img src="../images/real.jpg" alt="">
                         <div>Roland Emmerich</div>
                     </div>
-                    <div class="text-real ">
+                    <div class="text-real col-xs-6">
                         <p>
                         Roland Emmerich est un réalisateur, producteur et scénariste allemand,
                         né le 10 novembre 1955 à Stuttgart. Ses films ont rapporté plus de
@@ -103,7 +103,7 @@
                     </div>
                 </div>
 
-                <div class="bande-annonce">
+                <div class="bande-annonce col-xs-12">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/1c6Q_dBhNbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 </div>
