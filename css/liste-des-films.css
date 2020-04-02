@@ -1,38 +1,118 @@
-.titre-vod {
-    color: #BB1533;;
+body {
+    background-color: #111421!important;
 }
 
-.liste {
-    width: 100%!important;
+.axeltitreh2 {
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FF7200;
+    box-shadow: 2px 4px 5px black;
+}
+
+.axelcontainer {
+    width: 100%;
     display: flex;
 }
 
-.filtre {
-    background-color: #BB1533;
+
+.axelgauche {
+    background-color: #FF7200;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
     width: 30%;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
 }
 
-.titre-filtre {
+.axelH5 {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 20px;
+
 }
 
-.genre {
+.axelgenre {
     font-weight: 700;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
-.form-check {
+.axelcase {
     margin: 5px;
 }
 
-.cardfilm {
+
+.axeldroite {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width:140%;
+    justify-content: center;
+    padding-bottom:30px;
 }
+
+
+.cardaxel {
+    position:relative;
+    width: 180px;
+    height:220px;
+    margin:30px;
+    margin-bottom:80px;
+}
+
+
+
+
+.versfilm{
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width:120%;
+    height:120%;
+    border-radius:10px;
+}
+
+.titrefilm{
+    color:white;
+    text-align:center;
+    font-family:'Ubuntu', Arial, Helvetica, sans-serif;
+    margin-top:5px;
+    font-size:15px;
+    margin-left: 12%;
+}
+
+.infoaxel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.textaxel {
+    color: black;
+    font-family:'Ubuntu', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
