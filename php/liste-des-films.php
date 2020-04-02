@@ -91,10 +91,10 @@
         </div>
     </div>
 
-    
+
     <div class="axeldroite">
             <div class="cardaxel">
-            <a href="parasite.php" class="versfilm">
+            <a href="description-film.php" class="versfilm">
                 <img src="../images/film.jpg" alt="">
                 <div class="titrefilm">MIDWAY</div>
                 <div class="infoaxel">
