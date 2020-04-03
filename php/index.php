@@ -51,7 +51,7 @@
                     <li data-transition="fade">
 
                         <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-                        <img src="../images/image5.jpg" alt="Sky" class="rev-slidebg">
+                        <img src="../images/joker-large.jpg" alt="Sky" class="rev-slidebg">
 
                     </li>
 
@@ -59,7 +59,7 @@
                     <li data-transition="fade">
 
                         <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-                        <img src="../images/image3.jpg" alt="Ocean" class="rev-slidebg">
+                        <img src="../images/lappel-large.jpg" alt="Ocean" class="rev-slidebg">
 
                     </li>
 
@@ -67,7 +67,7 @@
                     <li data-transition="fade">
 
                         <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-                        <img src="../images/image4.jpg" alt="Ocean" class="rev-slidebg">
+                        <img src="../images/retour-a.jpg" alt="Ocean" class="rev-slidebg">
 
                     </li>
 
@@ -82,9 +82,9 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <a class=" image-affiche" href="#"><img src="../images/image2.jpg" alt="image-film" style="width: 168px;"></a>
-                    <a class=" image-affiche" href="#"><img src="../images/image6.jpg" alt="image-film" style="width: 176px; height: 252px"></a>
-                    <a class=" image-affiche2" href="#"><img src="../images/image7.jpg" alt="image-film" style="width: 168px; height: 252px"></a>
+                    <a class=" image-affiche" href="#"><img src="../images/image2.jpg" alt="image-film" style="width: 168px; margin-bottom: 20px"></a>
+                    <a class=" image-affiche" href="#"><img src="../images/image6.jpg" alt="image-film" style="width: 176px; height: 252px; margin-bottom: 20px"></a>
+                    <a class=" image-affiche2" href="#"><img src="../images/image7.jpg" alt="image-film" style="width: 178px; height: 252px"></a>
                 </div>
             </div>
         </div>

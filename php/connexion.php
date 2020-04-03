@@ -13,18 +13,18 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </head>
     <body>
-       <div class="formu-connexion container col-12">
-           <div class="titre-connexion text-center col-12">
+       <div class="col-xs-6 col-12 formu-connexion container ">
+           <div class="col-xs-12 col-12 titre-connexion  text-center ">
                <h2>Se connecter</h2>
            </div>
-                <form class="col-xs-6 col-12">
+                <form class="col-xs-2 col-12">
                         <div class="form-group">
                             <input type="email" class="form-control" id="email" placeholder="email" style="background-color: #BAB6B6;">
                         </div>
                         <div class="form-group">
                             <input type="password" class="form-control" id="mot-de-passe" placeholder="Passworld" style="background-color: #BAB6B6">
                         </div>
-                        <div class="bouton">
+                        <div class="bouton col-xs-6">
                             <button type="submit" class="btn btn-danger"><span class="couleur-bouton">SE CONNECTER</span></button>
                             <a href="../php/inscription.php"> <button type="button" class="btn btn-danger"><span class="couleur-bouton">S'inscrire</span></button></a>
                         </div>

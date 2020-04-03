@@ -29,3 +29,17 @@
 input::-webkit-input-placeholder {
     color: #111111 !important;
     }
+
+@media only screen and (min-width: 300px) and (max-width:640px) {
+    .formu-connexion {
+        width: auto!important;
+    }
+
+    .titre-connexion {
+        font-size: 10px;
+    }
+
+    .bouton {
+        width: auto;
+    }
+}

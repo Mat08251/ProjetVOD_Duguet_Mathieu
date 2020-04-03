@@ -23,7 +23,7 @@ body {
 .axelgauche {
     background-color: #BB1533;
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
-    width: 20%;
+    width: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -117,3 +117,9 @@ img {
     text-align: center;
 }
 
+@media only screen and (min-width: 300px) and (max-width:640px) {
+    .axelgauche {
+        width: 24%;
+        padding-left: 0px;
+    }
+}
