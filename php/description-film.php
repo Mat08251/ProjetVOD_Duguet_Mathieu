@@ -13,32 +13,33 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </head>
     <body>
-       <?php include ('../includes/navbar.php'); ?>
 
-       <div class="titre-du-film col-md-12 text-center">
+    <?php include ('../includes/navbar.php'); ?>
+
+       <div class="titre-du-film col-xs-12 col-md-12 text-center">
            <h2>MIDWAY</h2>
        </div>
 
-       <div class="row">
-            <div class="img-resume">
-                <div class="col-md-6 col-xs-12">   
-                    <img class="img-film" src="../images/image1.jpg" alt="">
-                </div>
-                <div class="informations col-md-6">
-                    <h3 class="info-title text-center">Informations sur le film</h3>
-                    <p class="texte-info">Réalisé par Roland Emmerich</br>
-                                           Avec Ed Skrein, Patrick Wilson, Woody Harrelson
-                    </p>
-                    <p class="duree-synop">Durée : 2h19 - Genre : Action, Historique, Guerre</p>
-                </div>
+       <div class="card mb-12">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <img src="../images/image1.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+                <h5 class="card-title">Informations sur le film</h5>
+                <p class="card-text">Réalisé par Roland Emmerich</p>
+                <p class="card-text">Avec Ed Skrein, Patrick Wilson, Woody Harrelson</p>
+                <p>Durée : 2h19 - Genre : Action, Historique, Guerre</p>
             </div>
-       </div>
+          </div>
+        </div>
+      </div>
 
-
-       <div class="synop container col-md-11">
+      <div class="synop container col-md-11">
            <h3>Synopsis</h3>
        </div>
-       <div class="texte-synop col-md-6">
+       <div class="texte-synop col-xs-3 col-md-6">
            <p>
               Après la débâcle de Pearl Harbor qui a laissé la flotte américaine dévastée,
               la marine impériale japonaise prépare une nouvelle attaque qui devrait éliminer
@@ -64,7 +65,7 @@
                     </div>
                     <div class="acteur">
                         <img src="../images/acteur3.jpg" alt="">
-                        <p>Ed Skrein</p>
+                        <div>Ed Skrein</div>
                     </div>
                     <div class="acteur">
                         <img src="../images/acteur4.jpg" alt="">
@@ -103,13 +104,12 @@
                     </div>
                 </div>
 
-                <div class="bande-annonce col-xs-12">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1c6Q_dBhNbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="bande-annonce col-xs-3">
+                    <iframe width="360" height="300" src="https://www.youtube.com/embed/1c6Q_dBhNbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 </div>
             </div>
         </div>
-
-       <?php include ('../includes/footer.php'); ?>
+        <?php include ('../includes/footer.php'); ?>
     </body>
 </html>

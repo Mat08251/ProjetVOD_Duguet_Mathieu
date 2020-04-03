@@ -20,12 +20,12 @@ body {
 }
 
 
-.actu {
-    background-color: #111421;
+.card{
+    background-color: #111421!important;
     margin-bottom: 10%;
 }
 
-.texte-actu {
+.card-body {
     margin-top: 7%;
     color: #BAB6B6;
 }

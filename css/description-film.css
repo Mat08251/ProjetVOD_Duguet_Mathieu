@@ -19,6 +19,10 @@ body {
     width:100%;
 }
 
+.card {
+    background-color: #C4C4C4!important;
+}
+
 .texte-info {
     margin-left: 140px;
     margin-right: 140px;
@@ -34,6 +38,7 @@ body {
 }
 
 .synop {
+    margin-top: 10px;
     background-color: #C4C4C4;
 }
 
@@ -134,145 +139,59 @@ body {
     margin-bottom: 40px;
 }
 
-@media only screen and (min-width:1000px){
-    .img-resume{
-        display:flex;
-    }
-
-    .img-film{
-        width:80%;
-    }
-
-.information{
-    width:40%; 
-    text-align: justify;
-    font-weight:100;
-    margin-bottom:auto;
- 
-
-}
 
 
-
-.info-title {
-    font-size:40px;
- 
-}
-
-.titre-acteur {
-    font-size:40px;
-}
-
-.liste-acteurs{
-    justify-content: space-evenly;
-}
-
-.acteur{
-    width:12%;
-    transition: .3s ease;
-    
-}
-
-.acteur:hover{
-    transform:scale(1.1);
-    transition: .3s ease;
-
-}
-
-.acteur img{
-    transition: .5s ease;
-    border-radius:10px;
-}
-
-.acteur img:hover{
-    transform: scale(1.1);
-    transform: translateY(-5px);
-    cursor:pointer;
-    transition: .5s ease;
-}
-
-.real-ba{
-    display:flex;
-    width:100%;
-    justify-content: space-evenly;
-    padding-bottom:40px;
-}
-
-
-.real{
-    width:50%;
-    justify-content: center;
-}
-
-.bande-annonce {
-    width: 50%;
-}
-
-iframe{
-    border-radius: 25px;
-}
-
-.text-real{
-    width:50%;
-    margin-top:auto;
-    margin-bottom:auto;
-    font-size:20px;
-    font-weight:100;
+@media only screen and (min-width: 300px) and (max-width:640px) {
+    .img-film {
+        margin-top: 20%;
+        position: absolute;
     }
     
-    .img-real{
-        width:50%;
-        margin-top:auto;
-    margin-bottom:auto;
-    transition: .3s ease;
-    }
-    
-    .img-real img:hover{
-        transform: scale(1.1);
-        transform: translateY(-5px);
-        cursor:pointer;
-        transition: .5s ease;
-    }
-    
-    .img-real img{
-        transition: .5s ease;
-        border-radius:10px;
-    }
-    
-    .img-real:hover{
-        transform:scale(1.1);
-        transition: .3s ease;
-    }
-}
-
-@media only screen and (min-width:1900px){*
-    
-    .information {
-        font-size:40px;
-        text-align:left;
-    }
-
-    .texte-synop{
+    .texte-info {
+        margin-top: 100%;
         margin-left: 20px;
+        width: 80%;
+    }
+    
+    .duree-synop {
+        margin-left: 20px;
+        width: 80%;
     }
 
-    .acteur{
-        font-size:20px;
+    .texte-synop {
+        margin-left: 6px;
     }
     
-    .acteur img{
-    width:150px;
-    }
-    
-    .img-real{
-        font-size:25px;
-    }
-    
-    .img-real > img{
-        width:150px;
-    }
-    .img-real > div{
-        font-size:20px;
+    .liste-acteurs {
+        display: inline;
     }
 
+    .acteur img {
+        margin-left: 290%;
+    }
+
+    .acteur div {
+        margin-left: 380%;
+    }
+    
+    .real-ba {
+        display: inline;
+    }
+
+    .real {
+        margin-left: 0px;
+    }
+
+    .img-real {
+        margin-left: 4%;
+    }
+
+    .text-real {
+        margin-top: 0%;
+        margin-right: 10%;
+    }
+
+    .bande-annonce {
+        width: 10%;
+    }
 }

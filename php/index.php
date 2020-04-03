@@ -89,16 +89,18 @@
             </div>
         </div>
 
-        <div class="actu container-fluid">
-            <div class="row">
-                <div class="image-actu col-6">
-                    <img src="../images/image1.jpg" alt="image-film" style="width: 600px; padding: 0px; margin-left: auto">
+        <div class="card mb-12">
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <img src="../images/image1.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                    <h5 class="card-title">Après la débâcle de Pearl Harbor qui a laissé la flotte américaine dévastée, la marine impériale japonaise prépare une nouvelle attaque qui devrait éliminer définitivement les forces aéronavales restantes de son adversaire. La campagne du Pacifique va se jouer dans un petit atoll isolé du Pacifique nord : Midway.</h5>
                 </div>
-                <p class="texte-actu col-6">
-                    Après la débâcle de Pearl Harbor qui a laissé la flotte américaine dévastée, la marine impériale japonaise prépare une nouvelle attaque qui devrait éliminer définitivement les forces aéronavales restantes de son adversaire. La campagne du Pacifique va se jouer dans un petit atoll isolé du Pacifique nord : Midway.
-                </p>
+              </div>
             </div>
-        </div>
+          </div>
 
 
         <div class="forfaits container-fluid text-center">
