@@ -104,7 +104,7 @@
                     </div>
                 </div>
 
-                <div class="bande-annonce col-sm-12">
+                <div class="bande-annonce col-md-1">
                     <iframe width="360" height="300" src="https://www.youtube.com/embed/1c6Q_dBhNbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 </div>
@@ -112,5 +112,6 @@
         </div>
         <?php include ('../includes/footer.php'); ?>
         <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="../js/description-film.js"></script>
     </body>
 </html>
