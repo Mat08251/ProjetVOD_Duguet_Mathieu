@@ -82,9 +82,9 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <a class=" image-affiche" href="#"><img src="../images/image2.jpg" alt="image-film" style="width: 168px; margin-bottom: 20px"></a>
-                    <a class=" image-affiche" href="#"><img src="../images/image6.jpg" alt="image-film" style="width: 176px; height: 252px; margin-bottom: 20px"></a>
-                    <a class=" image-affiche2" href="#"><img src="../images/image7.jpg" alt="image-film" style="width: 178px; height: 252px"></a>
+                    <a class=" image-affiche" href="description-film.php"><img src="../images/image2.jpg" alt="image-film" style="width: 168px; margin-bottom: 20px"></a>
+                    <a class=" image-affiche" href="description-film.php"><img src="../images/image6.jpg" alt="image-film" style="width: 176px; height: 252px; margin-bottom: 20px"></a>
+                    <a class=" image-affiche2" href="description-film.php"><img src="../images/image7.jpg" alt="image-film" style="width: 178px; height: 252px"></a>
                 </div>
             </div>
         </div>
@@ -108,7 +108,7 @@
                <h2>Forfaits</h2>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="choix col-6">
                    <div class="choix-forfait">
                       <h4>STANDARD</h4>
                    </div>
@@ -118,7 +118,7 @@
                         <p>11,99€/mois</p>
                    </div>
                 </div>
-                <div class="col-6">
+                <div class="choix col-6">
                    <div class="choix-forfait">
                        <h4>PREMIUM</h4>
                    </div>
@@ -133,6 +133,8 @@
 
        <?php include ('../includes/footer.php'); ?>
 
+       <script src="https://unpkg.com/scrollreveal"></script>
+       <script src="../js/index.js"></script>
 
                 <!-- Slider's main "init" script -->
                 <script type="text/javascript">

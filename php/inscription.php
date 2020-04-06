@@ -65,5 +65,7 @@
                         </div>
                 </form>
        </div>
+       <script src="https://unpkg.com/scrollreveal"></script>
+       
     </body>
 </html>

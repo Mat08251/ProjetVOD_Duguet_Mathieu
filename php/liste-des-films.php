@@ -240,5 +240,7 @@
     </div>
 
        <?php include ('../includes/footer.php'); ?>
+       <script src="https://unpkg.com/scrollreveal"></script>
+       <script src="../js/liste-des-films.js"></script>
     </body>
 </html>

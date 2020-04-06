@@ -28,8 +28,8 @@
                 <div class="row">
                     <div class="col-3 text-center">
                         <div class="form-group3">
-                            <label for="prénom">Prénom</label>
-                            <input type="text" class="form-control" id="prénom" placeholder="prénom" style="background-color: ;">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" class="form-control" id="prenom" placeholder="prenom" style="background-color: ;">
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                     <div class="col-3 text-center">
                         <div class="form-group3">
                             <label for="nom">Nom</label>
-                            <input type="text" class="form-control" id="nom" placeholder="nom" style="background-color: ;">
+                            <input type="text" class="form-control" name="nom" id="nom" placeholder="nom" style="background-color: ;">
                         </div>
                     </div>
                 </div>
@@ -45,15 +45,7 @@
                     <div class="col-3 text-center">
                         <div class="form-group3">
                             <label for="email">Votre E-mail</label>
-                            <input type="email" class="form-control" id="email" placeholder="email" style="background-color: ;">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-3 text-center">
-                        <div class="form-group3">
-                            <label for="confirmation">Confirmation de votre E-mail</label>
-                            <input type="email" class="form-control" id="email" placeholder="email" style="background-color: ;">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="email" style="background-color: ;">
                         </div>
                     </div>
                 </div>
@@ -61,7 +53,7 @@
                     <div class="col-3 text-center">
                         <div class="form-group3">
                             <label for="sujet">Sujet du message</label>
-                            <input type="text" class="form-control" id="sujet" placeholder="sujet" style="background-color: ;">
+                            <input type="text" class="form-control" name="sujet" id="sujet" placeholder="sujet" style="background-color: ;">
                         </div>
                     </div>
                 </div>
@@ -69,7 +61,7 @@
                     <div class="col-3 text-center">
                         <div class="form-group3">
                             <label for="message">Votre message</label>
-                            <textarea class="zone-texte form-control" id="message" placeholder="message" rows="3" style="background-color: ;"></textarea>
+                            <textarea class="zone-texte form-control" name="message" id="message" placeholder="message" rows="3" style="background-color: ;"></textarea>
                         </div>
                     </div>
                 </div>
@@ -83,5 +75,6 @@
             </div>
        </form>
        <?php include ('../includes/footer.php'); ?>
+       <script src="https://unpkg.com/scrollreveal"></script>
     </body>
 </html>

@@ -104,12 +104,13 @@
                     </div>
                 </div>
 
-                <div class="bande-annonce col-xs-3">
+                <div class="bande-annonce col-sm-12">
                     <iframe width="360" height="300" src="https://www.youtube.com/embed/1c6Q_dBhNbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 </div>
             </div>
         </div>
         <?php include ('../includes/footer.php'); ?>
+        <script src="https://unpkg.com/scrollreveal"></script>
     </body>
 </html>
