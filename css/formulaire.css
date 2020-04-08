@@ -37,6 +37,10 @@ label {
     margin-left: 23%;
 }
 
+.btn:hover {
+    background-color: rgb(134, 5, 5)!important;
+}
+
 .zone-texte {
     width: 110%!important;
 }

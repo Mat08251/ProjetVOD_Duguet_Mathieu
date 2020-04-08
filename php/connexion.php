@@ -31,5 +31,6 @@
                 </form>
         </div>
         <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="../js/connexion.js"></script>
     </body>
 </html>

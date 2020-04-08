@@ -61,11 +61,11 @@
 
                         <div class="bouton2">
                             <button type="submit" class="btn" style="background-color: #234253; "><span class="couleur-bouton2">CRÉER UN COMPTE</span></button>
-                            <a href="../php/index.php"> <button type="button" class="btn btn-"><span class="couleur-bouton2">ANNULER</span></button></a>
+                            <a href="../php/index.php"> <button type="button" class="btn "><span class="couleur-bouton2">ANNULER</span></button></a>
                         </div>
                 </form>
        </div>
        <script src="https://unpkg.com/scrollreveal"></script>
-       
+       <script src="../js/inscription.js"></script>
     </body>
 </html>
