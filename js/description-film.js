@@ -35,7 +35,8 @@ sr.reveal('.acteur', {
 sr.reveal('.img-real', {
     duration: 3000,
    scale: 0.5,
-   reset: true   
+   reset: true, 
+   mobile: false  
 });
 
 sr.reveal('.text-real', {
@@ -43,12 +44,14 @@ sr.reveal('.text-real', {
     distance: '200px',
     duration: 1000,
     delay: 700,
-    reset: true
+    reset: true,
+    mobile: false 
 });
 
 sr.reveal('.bande-annonce', {
     origin:'right',
     duration: 2000,
     distance: '300px',
-    reset: true
+    reset: true,
+    mobile: false 
 })

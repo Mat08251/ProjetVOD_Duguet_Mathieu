@@ -12,6 +12,16 @@
     margin-bottom: 9%;
 }
 
+.Metro {
+    color: #BB1533!important;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    text-decoration: none!important;
+}
+
 .form-group {
     width: 30%;
     margin-left: 7%;
@@ -33,6 +43,11 @@ input::-webkit-input-placeholder {
 @media only screen and (min-width: 300px) and (max-width:640px) {
     .formu-connexion {
         width: auto!important;
+    }
+
+    .Metro {
+        margin-top: 2%;
+        font-size: 26px;
     }
 
     .titre-connexion {

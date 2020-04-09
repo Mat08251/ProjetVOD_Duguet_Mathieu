@@ -14,6 +14,9 @@
     </head>
     <body>
        <div class="col-xs-6 col-12 formu-connexion container ">
+           <div class="row">
+               <a class="Metro" href="../php/index.php">Metropolis</a>
+           </div>
            <div class="col-xs-12 col-12 titre-connexion  text-center ">
                <h2>Se connecter</h2>
            </div>

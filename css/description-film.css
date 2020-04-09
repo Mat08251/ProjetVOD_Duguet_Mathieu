@@ -23,6 +23,10 @@ body {
     background-color: #C4C4C4!important;
 }
 
+.card-body {
+    font-size: 26px;
+}
+
 .texte-info {
     margin-left: 140px;
     margin-right: 140px;
@@ -41,12 +45,14 @@ body {
     margin-top: 40px;
     margin-bottom: 20px;
     background-color: #C4C4C4;
+    font-size: 80px!important;
 }
 
 .texte-synop {
     margin-left: 90px;
     color: #FFFFFF;
     margin-bottom: 50px;
+    font-size: 26px;
 }
 
 .bloc-acteurs {
@@ -74,7 +80,7 @@ body {
     margin:20px;
     color:black;
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
-    font-size:10px;
+    font-size:20px;
     text-align: center;
     position: relative;
 
@@ -141,7 +147,15 @@ body {
     margin-bottom: 40px;
 }
 
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    .real-ba {
+        flex-direction: column;
+    }
 
+    .bande-annonce {
+        margin-left: 26%;
+    }
+}
 
 @media only screen and (min-width: 300px) and (max-width:640px) {
     .img-film {
@@ -169,11 +183,12 @@ body {
     }
 
     .acteur img {
-        margin-left: 290%;
+        margin-left: 310%;
     }
 
     .acteur div {
-        margin-left: 380%;
+        margin-left: 360%;
+
     }
     
     .real-ba {
@@ -185,16 +200,25 @@ body {
     }
 
     .img-real {
-        margin-left: 4%;
+        margin-left: 10%;
     }
 
     .text-real {
         margin-top: 0%;
-        margin-right: 10%;
+        margin-right: 2%;
+        margin-left: 10%;
     }
 
     .bande-annonce {
-        width: 10%;
+        display: flex;
+        flex-direction: row;
+        margin-left: %;
     }
 }
 
+@media only screen and (min-width: 300px) and (max-width:640px) {
+    .bande-annonce {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
