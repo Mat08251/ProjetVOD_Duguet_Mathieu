@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-brand {
+    font-size: 30px!important;
+}
+
+.nom {
+    margin-right: 8%;
+}
+
+.collapse {
+    margin-left: 48%;
+}
+
+.nav-link {
+    font-size: 20px;
+}

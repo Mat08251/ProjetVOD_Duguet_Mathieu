@@ -28,7 +28,7 @@
                             <input type="password" class="form-control" id="mot-de-passe" placeholder="Passworld" style="background-color: #BAB6B6">
                         </div>
                         <div class="bouton col-xs-6">
-                            <button type="submit" class="btn btn-danger"><span class="couleur-bouton">SE CONNECTER</span></button>
+                            <a href="../php/admin.php"><button type="button" class="btn btn-danger"><span class="couleur-bouton">SE CONNECTER</span></button></a>
                             <a href="../php/inscription.php"> <button type="button" class="btn btn-danger"><span class="couleur-bouton">S'inscrire</span></button></a>
                         </div>
                 </form>
