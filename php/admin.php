@@ -149,5 +149,8 @@
                 </tr>
             </tbody>
     </table>
+    <div class="ajouter">
+        <button type="button" class="btn btn-info">+ Ajouter</button>
+    </div>
 </body>
 </html>

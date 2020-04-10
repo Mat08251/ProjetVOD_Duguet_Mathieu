@@ -18,3 +18,8 @@
 .nav-link {
     font-size: 20px;
 }
+
+.ajouter {
+    float: right!important;
+    margin-right: 10%;
+}
