@@ -6,7 +6,6 @@ body {
 .affiche {
     background-color: #111421;
     height:390px;
-    margin-bottom: 10%;
 }
 
 .image-affiche {
@@ -19,10 +18,13 @@ body {
     color: #BAB6B6;
 }
 
+.parallax {
+    min-height: 500px;
+    background: transparent;
+}
 
 .card{
     background-color: #111421!important;
-    margin-bottom: 10%;
 }
 
 .card-body {
@@ -37,7 +39,6 @@ body {
 
 .titre-forfaits {
     color: #BAB6B6;
-    margin-top: 10%;
 }
 
 .choix-forfait {

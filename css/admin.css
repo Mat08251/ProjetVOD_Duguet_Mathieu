@@ -1,32 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-}
-.navbar {
-    display: flex;
-    flex-direction: row;
+    background-color: rgb(63, 63, 63)!important;
 }
 
-.navbar-brand {
-    font-size: 30px!important;
-}
-
-.nom {
-    margin-right: 8%;
-}
-
-.collapse {
-    margin-left: 48%;
-}
-
-.nav-link {
-    font-size: 20px;
-}
 
 .card {
     width: 20%;
     margin-top: 2%;
-    background-color: rgba(48, 47, 47, 0.356)!important;
+    background-color: rgba(252, 252, 252, 0.356)!important;
     float: right;
     margin-right: 5.1%;
+    color: white;
 }

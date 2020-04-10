@@ -33,7 +33,8 @@
 		<script type="text/javascript" src="../revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 		<script type="text/javascript" src="../revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 		<script type="text/javascript" src="../revolution/js/extensions/revolution.extension.video.min.js"></script>
-        <script src="https://kit.fontawesome.com/7d77d119e1.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/7d77d119e1.js" crossorigin="anonymous"></script> 
+        <script src="../parallax/parallax.min.js"></script>
     </head>
     <body>
        <?php include ('../includes/navbar.php'); ?>
@@ -89,6 +90,8 @@
             </div>
         </div>
 
+        <div class="parallax" data-parallax="scroll" data-z-index="" data-image-src="../images/etoile1.jpg"></div>
+
         <div class="card mb-12">
             <div class="row no-gutters">
               <div class="col-md-6">
@@ -102,6 +105,7 @@
             </div>
           </div>
 
+          <div class="parallax" data-parallax="scroll" data-z-index="" data-image-src="../images/etoile2.png"></div>
 
         <div class="forfaits container-fluid text-center">
             <div class="titre-forfaits text-center">

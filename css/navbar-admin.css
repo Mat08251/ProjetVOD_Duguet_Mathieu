@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-brand {
+    font-size: 30px!important;
+    color: white!important;
+}
+
+.nom {
+    margin-right: 8%;
+}
+
+.collapse {
+    margin-left: 48%;
+    color: white;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: white! important;
+}
+
+.nav-link:hover {
+    color: rgb(110, 0, 0)!important;
+}
