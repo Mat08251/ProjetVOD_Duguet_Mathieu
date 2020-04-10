@@ -38,13 +38,15 @@
 
 
     <table class="table table-striped">
-            <thead>
+            <thead class="thead-dark">
                 <tr>
                 <th scope="col">#</th>
                 <th scope="col">Films</th>
                 <th scope="col">Date</th>
                 <th scope="col">Durée</th>
                 <th scope="col">Réalisateur</th>
+                <th></th>
+                <th></th>
                 </tr>
             </thead>
             <tbody>
