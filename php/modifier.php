@@ -21,31 +21,31 @@
 
     <div class="container">
         <div class="">
-            <h5>Général</h5>
+            <h5 class="rubrique bg-secondary">Général</h5>
         </div>
         <form>
         <div class="form-group row">
-            <label for="titre" class="col-sm-2 col-form-label">Titre</label>
-            <div class="col-sm-10">
+            <label for="titre" class="col-sm-2 col-form-label">Titre :</label>
+            <div class="col-sm-4">
             <input type="text" readonly class="form-control" id="titre">
             </div>
         </div>
         <div class="form-group row">
-            <label for="date" class="col-sm-2 col-form-label">Date</label>
-            <div class="col-sm-10">
+            <label for="date" class="col-sm-2 col-form-label">Date :</label>
+            <div class="col-sm-4">
             <input type="text" class="form-control" id="date">
             </div>
         </div>
         <div class="form-group row">
-            <label for="duré" class="col-sm-2 col-form-label">Durée</label>
-            <div class="col-sm-10">
+            <label for="duré" class="col-sm-2 col-form-label">Durée :</label>
+            <div class="col-sm-4">
             <input type="text" class="form-control" id="duré">
             </div>
         </div>
         <div class="form-group row">
-            <label for="real" class="col-sm-2 col-form-label">Réalisateur</label>
-            <div class="col-sm-10">
-            <input type="text" class="form-control" id="real">
+            <label for="real" class="col-sm-2 col-form-label">Réalisateur :</label>
+            <div class="col-sm-4">
+            <input type="text" class="form-control" id="real" >
             </div>
         </div>
         </form>
@@ -53,7 +53,7 @@
 
     <div class="container">
         <div class="">
-            <h5>Synopsis du film</h5>
+            <h5 class="rubrique bg-secondary">Synopsis du film</h5>
         </div>
         <form>
             <div class="form-group row">
@@ -63,6 +63,13 @@
                 </div>
             </div>
         </form>
+    </div>
+
+    <div class="container">
+        <a href="../php/modifier.php"><button type="button" class="btn btn-danger">Supprimer</button></a>
+        <a href="../php/modifier.php"><button type="button" class="btn btn-primary">Enregistrer et ajouter un nouveaux film</button></a>
+        <a href="../php/modifier.php"><button type="button" class="btn btn-primary">Enregistrer et continuer les modifications</button></a>
+        <a href="../php/modifier.php"><button type="button" class="btn btn-primary">Enregistrer</button></a>
     </div>
 </body>
 </html>

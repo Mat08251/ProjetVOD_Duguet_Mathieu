@@ -3,7 +3,17 @@ body {
     padding: 0;
 }
 
+.container {
+    float: left;
+    margin-left: 10%!important;
+}
+
 .titre-modif {
     margin: auto;
     font-size: 30px;
+    margin-left: 10.5%;
+}
+
+.rubrique {
+    padding: 1%;
 }
