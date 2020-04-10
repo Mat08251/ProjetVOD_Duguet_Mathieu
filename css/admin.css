@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .navbar {
     display: flex;
     flex-direction: row;
@@ -19,7 +23,10 @@
     font-size: 20px;
 }
 
-.ajouter {
-    float: right!important;
-    margin-right: 10%;
+.card {
+    width: 20%;
+    margin-top: 2%;
+    background-color: rgba(48, 47, 47, 0.356)!important;
+    float: right;
+    margin-right: 5.1%;
 }

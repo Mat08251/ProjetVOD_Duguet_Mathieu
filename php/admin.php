@@ -149,8 +149,15 @@
                 </tr>
             </tbody>
     </table>
-    <div class="ajouter">
-        <button type="button" class="btn btn-info">+ Ajouter</button>
+    
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Ajouter à la liste :</h5>
+            <p class="card-text">Acces à la page d'ajout pour la Bdd</p>
+            <button type="button" class="btn btn-info">+ Ajouter</button>
+        </div>
     </div>
+            
+        
 </body>
 </html>
