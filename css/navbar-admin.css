@@ -8,6 +8,10 @@
     color: white!important;
 }
 
+.navbar-brand:hover {
+    color: rgb(110, 0, 0)!important;
+}
+
 .nom {
     margin-right: 8%;
 }

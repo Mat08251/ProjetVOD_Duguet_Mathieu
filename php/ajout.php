@@ -15,7 +15,7 @@
 
     <div class="row">
         <div class="titre-modif col-md-10">
-            <p>Modification du film</p>
+            <p>Ajout d'un film</p>
         </div>
     </div>
 
@@ -27,7 +27,7 @@
         <div class="form-group row">
             <label for="titre" class="col-sm-2 col-form-label">Titre :</label>
             <div class="col-sm-4">
-            <input type="text"  class="form-control" id="titre">
+            <input type="text" class="form-control" id="titre">
             </div>
         </div>
         <div class="form-group row">
@@ -66,9 +66,9 @@
     </div>
 
     <div class="container">
-        <a href="../php/supression.php"><button type="button" class="btn btn-danger">Supprimer</button></a>
+        <a href="../php/admin.php"><button type="button" class="btn btn-danger">Supprimer</button></a>
         <div class="bouton-modif">
-            <a href="../php/modifier.php"><button type="button" class="btn btn-primary">Enregistrer et continuer les modifications</button></a>
+            <a href="../php/admin.php"><button type="button" class="btn btn-primary">Enregistrer et ajouter un nouveaux film</button></a>
             <a href="../php/admin.php"><button type="button" class="btn btn-primary">Enregistrer</button></a>
         </div>
     </div>

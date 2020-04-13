@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(167, 176, 196)!important;
 }
 
 .container {
@@ -10,10 +11,23 @@ body {
 
 .titre-modif {
     margin: auto;
+    margin-top: 1%;
+margin-bottom: 1%;
     font-size: 30px;
     margin-left: 10.5%;
 }
 
 .rubrique {
-    padding: 1%;
+    padding: 0.8%;
+    color: white;
+}
+
+.titre-rubrique {
+    width: 170%!important;
+}
+
+
+
+.bouton-modif {
+    float: right;
 }
